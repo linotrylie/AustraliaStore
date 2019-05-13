@@ -1,0 +1,3014 @@
+[ 2019-05-14T00:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.034463s][吞吐率：29.02req/s] [内存消耗：5,694.28kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005075s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:09:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.030645s][吞吐率：32.63req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004363s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:09:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.035400s][吞吐率：28.25req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003564s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:10:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.043037s][吞吐率：23.24req/s] [内存消耗：5,965.38kb] [文件加载：65]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003952s ]
+[ info ] [ RUN ] app\index\controller\Pub->login[ F:\Code\AustraliaStore\application\index\controller\Pub.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:F:\Code\AustraliaStore\public_html/../application/index\view\pub\login.html[F:\Code\AustraliaStore\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:11:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024932s][吞吐率：40.11req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003839s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.030775s][吞吐率：32.49req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004399s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024499s][吞吐率：40.82req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003912s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.026028s][吞吐率：38.42req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004068s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.025654s][吞吐率：38.98req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003972s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.025438s][吞吐率：39.31req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003870s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024667s][吞吐率：40.54req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003557s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.025070s][吞吐率：39.89req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003587s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.044029s][吞吐率：22.71req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003863s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024494s][吞吐率：40.83req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003772s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024996s][吞吐率：40.01req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004201s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024082s][吞吐率：41.52req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003486s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024644s][吞吐率：40.58req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003709s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pub/login.html
+[ log ] astore.com/index/pub/login.html [运行时间：0.024396s][吞吐率：40.99req/s] [内存消耗：5,693.66kb] [文件加载：59]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003763s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：0.029034s][吞吐率：34.44req/s] [内存消耗：5,966.51kb] [文件加载：65]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003739s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\taglib\Tp' not found[F:\Code\AustraliaStore\thinkphp\library\think\Template.php:691]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：0.047452s][吞吐率：21.07req/s] [内存消耗：5,967.12kb] [文件加载：65]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003632s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\taglib\Tp' not found[F:\Code\AustraliaStore\thinkphp\library\think\Template.php:691]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:14:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：0.027711s][吞吐率：36.09req/s] [内存消耗：5,967.12kb] [文件加载：65]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003535s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\taglib\Tp' not found[F:\Code\AustraliaStore\thinkphp\library\think\Template.php:691]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:16:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.058651s][吞吐率：0.94req/s] [内存消耗：6,799.34kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004073s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.030097s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014241s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009605s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764181) [ RunTime:0.000347s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:16:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.042978s][吞吐率：0.96req/s] [内存消耗：6,617.78kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003823s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017283s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003710s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007961s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764184) [ RunTime:0.000241s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:17:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.063972s][吞吐率：0.94req/s] [内存消耗：6,799.45kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004213s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016903s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003574s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007785s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764243) [ RunTime:0.000334s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:17:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.050307s][吞吐率：0.95req/s] [内存消耗：6,617.78kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003883s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016157s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002536s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008059s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764246) [ RunTime:0.000370s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:18:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.063655s][吞吐率：0.94req/s] [内存消耗：6,799.45kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003624s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.018328s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004616s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007785s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764304) [ RunTime:0.000219s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:19:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.044299s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003717s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016494s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003244s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007774s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764362) [ RunTime:0.000219s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:19:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.057613s][吞吐率：0.95req/s] [内存消耗：6,618.03kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004667s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.026940s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013726s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007833s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764366) [ RunTime:0.000221s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:20:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.043607s][吞吐率：0.96req/s] [内存消耗：6,618.34kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003851s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.019140s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004635s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009148s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764419) [ RunTime:0.000226s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:20:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.050390s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004116s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.019316s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002948s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009795s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764450) [ RunTime:0.000281s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:21:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.049554s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004373s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016162s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002778s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007953s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764510) [ RunTime:0.000237s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:23:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.045610s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003699s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.018456s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003153s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009331s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764583) [ RunTime:0.000236s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:24:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.047951s][吞吐率：0.95req/s] [内存消耗：6,618.03kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004301s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017115s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003976s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007807s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764645) [ RunTime:0.000248s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:27:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.076735s][吞吐率：0.93req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004923s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.028604s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014448s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557764826) [ RunTime:0.000219s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:34:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.072792s][吞吐率：0.93req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004473s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016601s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002559s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007890s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765265) [ RunTime:0.000233s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:35:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.063371s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003714s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.036861s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023481s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007902s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765304) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:36:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.043445s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003695s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016843s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003699s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007872s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765359) [ RunTime:0.000228s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.074060s][吞吐率：0.93req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004228s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016569s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002672s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007982s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765403) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:36:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.040711s][吞吐率：0.96req/s] [内存消耗：6,618.03kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003570s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016272s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002920s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007928s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765405) [ RunTime:0.000228s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.044946s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003710s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016807s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003696s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007848s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765418) [ RunTime:0.000221s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:37:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.055498s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003611s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.027889s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014748s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007785s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765463) [ RunTime:0.000220s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:38:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.061920s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003623s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.026783s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013513s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007929s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765512) [ RunTime:0.000225s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:39:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.051707s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004375s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017653s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003762s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007821s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765541) [ RunTime:0.000220s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.043658s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003609s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017063s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003860s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007917s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765569) [ RunTime:0.000232s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:40:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.055024s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004050s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.027480s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014108s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007923s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765642) [ RunTime:0.000300s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:41:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.064808s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004242s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.030454s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014671s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009624s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765694) [ RunTime:0.000401s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:41:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.052951s][吞吐率：0.95req/s] [内存消耗：6,618.03kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003985s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.028316s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014859s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008173s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765698) [ RunTime:0.000238s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:41:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.064336s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003600s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.025646s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012018s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008147s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765716) [ RunTime:0.000231s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:42:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.060212s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003902s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.018298s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005024s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007802s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765749) [ RunTime:0.000262s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:42:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.063218s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004050s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.036265s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023108s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007875s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765769) [ RunTime:0.000225s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.042126s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003694s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.015652s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002637s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007771s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765793) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:43:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.056767s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003756s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016769s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003739s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007782s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765807) [ RunTime:0.000225s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:44:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.052364s][吞吐率：0.95req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004295s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017939s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003562s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008399s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765843) [ RunTime:0.000249s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:44:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.063349s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004105s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.035955s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022713s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007921s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765870) [ RunTime:0.000244s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:44:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.043440s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003820s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016404s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003176s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007898s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765896) [ RunTime:0.000227s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:45:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.042701s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003690s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016171s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003159s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007746s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765920) [ RunTime:0.000222s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:45:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.064368s][吞吐率：0.94req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003619s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.037859s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024570s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007874s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765932) [ RunTime:0.000238s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:45:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.043460s][吞吐率：0.96req/s] [内存消耗：6,800.20kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003705s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016981s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003723s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007968s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557765948) [ RunTime:0.000231s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:47:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.072253s][吞吐率：0.93req/s] [内存消耗：6,807.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004308s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.038066s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023564s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008522s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766025) [ RunTime:0.000236s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.051189s][吞吐率：0.95req/s] [内存消耗：6,807.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004331s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017170s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003347s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007865s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766190) [ RunTime:0.000252s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:50:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.044310s][吞吐率：0.96req/s] [内存消耗：6,807.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003648s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017809s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004564s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007940s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766225) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:50:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.044193s][吞吐率：0.96req/s] [内存消耗：6,807.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004030s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017074s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003792s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007905s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766245) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:53:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.061986s][吞吐率：0.94req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004245s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.028109s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014412s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007720s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766389) [ RunTime:0.000224s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:54:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.062092s][吞吐率：0.94req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003643s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.035296s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021934s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008051s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766452) [ RunTime:0.000242s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:54:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.055392s][吞吐率：0.95req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003575s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.018177s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004460s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008277s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766474) [ RunTime:0.000256s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T00:54:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.043725s][吞吐率：0.96req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003735s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.016470s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003126s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007935s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557766490) [ RunTime:0.000258s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T01:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.075711s][吞吐率：0.93req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004580s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.038586s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021941s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009818s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557768275) [ RunTime:0.000361s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T01:24:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.064768s][吞吐率：0.94req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003827s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.037615s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024233s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008050s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557768283) [ RunTime:0.000232s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T01:24:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.045799s][吞吐率：0.96req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003853s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.018162s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004912s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007869s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557768298) [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T01:25:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.049064s][吞吐率：0.95req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003618s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017428s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003804s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008141s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557768308) [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T01:25:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.055200s][吞吐率：0.95req/s] [内存消耗：6,819.70kb] [文件加载：70]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.003675s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.017305s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004147s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.007782s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557768324) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2019-05-14T01:27:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ log ] astore.com/index/ [运行时间：1.074365s][吞吐率：0.93req/s] [内存消耗：6,624.53kb] [文件加载：67]
+[ info ] [ LANG ] F:\Code\AustraliaStore\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=1huotjm1439som1bv2jjvvml8a; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'astore.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004255s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Code\AustraliaStore\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:1.028178s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013521s ] mysql:dbname=astore.com;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008397s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 10' , 'Chrome(73.0.3683.75)' , 'http://astore.com/index/' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1557768433) [ RunTime:0.000327s ]
+
+---------------------------------------------------------------

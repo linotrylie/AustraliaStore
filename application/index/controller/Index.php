@@ -1,10 +1,11 @@
 <?php
 namespace app\index\controller;
 
-class Index
+use app\index\Controller;
+class Index extends Controller
 {
     public function index()
     {
-        return \think\Response::create(\think\Url::build('/admin'), 'redirect');
+        return $this->view->fetch();
     }
 }
