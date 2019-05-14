@@ -1,0 +1,6 @@
+<td><input type="checkbox" name="id[]" value="{$vo.id}"></td>
+<td>{$vo.product_name|high_light=$Request.param.product_name}</td>
+<td>{$vo.unit_price}</td>
+<td>{$vo.unit_quantity}</td>
+<td>{$vo.in_stock}</td>
+<td>{$vo.create_time|date='Y-m-d',###}</td>

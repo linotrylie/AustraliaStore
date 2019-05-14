@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wwwroot\AustraliaStore\public_html/../application/index\view\index\index.html";i:1557835371;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -93,7 +94,7 @@
 					    </template>
 					    <el-submenu index="1-1">
 					      <span slot="title">选项4</span>
-					      <el-menu-item index="1-1-1" @click="getGoods" >选项1</el-menu-item>
+					      <el-menu-item index="1-1-1">选项1</el-menu-item>
 					    </el-submenu>
 					  </el-submenu>
 					</el-menu>
