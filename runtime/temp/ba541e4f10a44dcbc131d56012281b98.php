@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html";i:1557768322;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"F:\Code\AustraliaStore\public_html/../application/index\view\index\index.html";i:1557770405;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -113,7 +113,7 @@
 					    </template>
 					    <el-menu-item-group>
 					      <span slot="title">分组一</span>
-					      <el-menu-item index="4-1">选项1</el-menu-item>
+					      <el-menu-item index="4-1" @click="goTo('/demo')">选项1</el-menu-item>
 					      <el-menu-item index="4-2">选项2</el-menu-item>
 					    </el-menu-item-group>
 					    <el-menu-item-group title="分组2">
@@ -145,7 +145,9 @@
 
 		    </el-aside>
 		    <el-container >
-		      <el-main style="height: 762px;">Main</el-main>
+		      <el-main style="height: 762px;">
+		      	 <router-view></router-view>
+		      </el-main>
 		      <el-footer>Footer</el-footer>
 		    </el-container>
 		  </el-container>
@@ -165,7 +167,10 @@
       },
       handleClose(key, keyPath) {
         console.log(key, keyPath);
-      }
+      },
+      goTo(path) {
+      this.$router.replace(path);
+    }
     }
 	}
 var Ctor = Vue.extend(Main)
