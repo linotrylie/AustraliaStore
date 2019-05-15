@@ -59,4 +59,74 @@ class Home extends CI_Controller
         	}
         	return $arr;
         }
+
+        public function getSubmit(){
+        	$list = $_GET['list'];
+        	$form = $_GET['form'];
+        	$form = (array)json_decode($form);
+        	$count = $_GET['count'];
+  
+        	$priceTotal = $_GET['priceTotal'];
+        	$html = "
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Think You!</title>
+</head>
+<body>
+	<h1>From Grocery Store</h1>
+	<p>In order to ensure that you can receive our reply, we have sent you the information of your order submitted in the form of e-mail, which is confirmed by you personally. At the same time, on behalf of our successful receipt of your order information, we will send your order to you in the fastest time. Please wait patiently.</p>
+	<table border='1px' cellspacing='0'>
+		<tr>
+			<th>Picture</th>
+			<th>CommodityName</th>
+			<th>CommodityPrice</th>
+			<th>QuantityOfCommodities</th>
+			<th>TotalCommodities</th>
+		</tr>
+";
+		foreach ($list as $key => $v) {
+			$v =(array) json_decode($v);
+			$html .="
+		<tr>
+			<td><img src=".$v['product_images']." width='200px' height='200px'></td>
+			<td>".$v['product_name']."</td>
+			<td>".$v['unit_price']."</td>
+			<td>".$v['saled']."</td>
+			<td>".$v['saled']*$v['unit_price']."</td>
+		</tr>
+";
+		}
+		
+		$html .= "
+	</table>
+	<p>A total of ".$count." items were purchased.</p>
+	<p>The total value is $".$priceTotal.".</p>
+</body>
+</html>
+";
+		    $config['protocol'] = 'smtp';
+		    $config['smtp_host'] = 'smtp.163.com';
+		    $config['smtp_user'] = 'lll2669877481@163.com';
+		    $config['smtp_pass'] = 'lll553553';
+		    $config['smtp_port'] = '456';
+		    $config['charset'] = 'utf-8';
+		    $config['wordwrap'] = TRUE;
+		    $config['mailtype'] = 'html';
+        	$this->load->library('email',$config);
+		//     $this->email->initialize($config);
+			$this->email->from('lll2669877481@163.com', 'Grocery Store');
+			$this->email->to($form['email']);
+			$this->email->subject('Grocery Store');
+			$this->email->message($html);
+			$this->email->send();
+
+			foreach ($list as $key => $v) {
+				# code...
+				$v =(array) json_decode($v);
+				$res = $this->goods_model->updateSaled($v['product_id'],$v['saled'],$v['in_stock']);
+				var_dump($res);
+			}
+        }
+
 }

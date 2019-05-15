@@ -31,4 +31,10 @@ class Goods_model extends CI_Model
 		}
 		return $data;
 	}
+
+	public function updateSaled($product_id,$saled,$in_stock){
+		$i = $in_stock - $saled;
+		$this->db->where('product_id',$product_id);
+		return $this->db->update('products',['saled'=>0,'in_stock'=>$i]);
+	}
 }

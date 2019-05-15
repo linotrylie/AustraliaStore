@@ -118,19 +118,19 @@
 					      default-active="2"
 					      class="el-menu-vertical-demo"
 					      @open="handleOpen"
-					      @close="handleClose" v-model="menudata" v-for="menu in menudata">
+					      @close="handleClose" v-model="menudata" v-for="(menu,index) in menudata" :key="index">
 
 					      <el-submenu :index="menu.id">
 					        <template slot="title">
 					          <i class="el-icon-location"></i>
 					          <span>{{menu.name}}</span>
 					        </template>
-					        <el-submenu :index="menu.id +'-'+child.id" v-if="menu.children" v-for="child in menu.children">
+					        <el-submenu :index="menu.id +'-'+child.id" v-if="menu.children" v-for="(child,index) in menu.children" :key="index">
 					        	<!-- <el-submenu :index="menu.id +'-'+child.id+'-'+c.product_id" v-if="child.children" v-for="c in child.children"> -->
 					        		<template slot="title">{{child.name}}</template>
 					          		
 					          			<el-row>
-										  <el-col :span="6":index="menu.id +'-'+child.id+'-'+p.product_id"  v-for="p in child.children"  :key="p.product_id" :offset="1">
+										  <el-col :span="6":index="menu.id +'-'+child.id+'-'+p.product_id"  v-for="(p,index) in child.children"  :key="index" :offset="1">
 										    <el-card :body-style="{ padding: '0px' }">
 										      <img :src="p.product_images" class="image" style="width: 100%;height:100px;">
 										      <div style="padding: 14px;">
@@ -148,7 +148,7 @@
 					        		<!-- </el-submenu> -->
 					        	</el-submenu>
 					        	
-					        	<el-submenu :index="menu.id +'-'+p.product_id" v-else-if="!p.product_id" v-for="p in menu.children">
+					        	<el-submenu :index="menu.id +'-'+p.product_id" v-else-if="!p.product_id" v-for="(p,index) in menu.children" :key="index">
 					        		<p>{{p}}</p>
 					        		<template slot="title"></template>
 					          			<el-row>
@@ -204,7 +204,7 @@
                                   <el-main style="height:260px;line-height:40px;margin-top:20px;text-align:left;">
                                       {{p.product_content}}
                                   </el-main>
-                                  <el-button style="float:right;" @click="addCart(p)">ADD</el-button>
+                                  <el-button style="float:right;" @click="addCart(p)" :disabled="taptap">ADD</el-button>
                               </el-aside>
 
 
@@ -220,60 +220,80 @@
               </el-main>
                 <el-footer style="height:400px;">
                     <tamplate >
-                        <el-table :data="list.filter(data => !search || data.name.toLowerCase().includes(search.toLowerCase()))" border style="width: 100%; height:100%;" height="350" v-show="list.length" highlight-current-row>
-                            <el-table-column fixed label="复选框" width="120" style="color:red" :render-header="renderHeader">
+                        <el-table :data="list.filter(data => !search || data.product_name.toLowerCase().includes(search.toLowerCase()))" border style="width: 100%; height:100%;" height="350" v-show="list.length" highlight-current-row>
+                            <el-table-column fixed label="CheckBox" width="120" style="color:red" :render-header="renderHeader">
                                 <template scope="scope">
                                     <el-checkbox v-model="scope.row.checked"></el-checkbox>
                                 </template>
                             </el-table-column>
-                            <el-table-column  prop="product_name" label="商品名称" width="180">
+                            <el-table-column  prop="product_name" label="CommodityName" width="180">
                             </el-table-column>
-                            <el-table-column  prop="unit_price" label="商品价钱" width="180">
+                            <el-table-column  prop="unit_price" label="CommodityPrice" width="180">
                             </el-table-column>
-                            <el-table-column  label="商品数量" width="380">
+                            <el-table-column  label="QuantityOfCommodities" width="340">
                                 <template scope="scope">
-                                    <el-input-number v-model="scope.row.in_stock" controls-position="right" :min="1" :max="scope.row.number"></el-input-number>
+                                    <el-input-number v-model="scope.row.saled" controls-position="right" :min="1" :max="Number(scope.row.in_stock)"></el-input-number>
                                 </template>
 
                             </el-table-column>
-                            <el-table-column fixed label="商品总价">
+                            <el-table-column fixed label="TotalCommodityPrice" width="240">
                                 <template scope="scope">
-                                    <div>{{scope.row.unit_price*scope.row.in_stock}}</div>
+                                    <div>{{scope.row.unit_price*scope.row.saled}}</div>
 
                                 </template>
                             </el-table-column>
                             <el-table-column
                                     align="right">
                                 <template scope="scope">
-                                    <el-popover placement="top" width="280" v-model="scope.row.remove">
-                                        <p>亲！确定删除此商品吗？</p>
-                                        <div style="text-align: right; margin: 0">
-                                            <el-button size="mini" type="text" @click="scope.row.remove=false">取消</el-button>
-                                            <el-button type="primary" size="mini" @click="removeId(scope.row)">确定</el-button>
-                                        </div>
-                                        <el-button slot="reference">删除</el-button>
-                                    </el-popover>
-
+                             
+                                        <el-button @click="removeId(scope.row)" >del</el-button>
+                           
                                 </template>
                                 <template slot="header" slot-scope="scope">
                                     <el-input
                                             v-model="search"
                                             size="mini"
-                                            placeholder="输入关键字搜索"/>
+                                            placeholder="Input keyword search"/>
                                 </template>
 
                             </el-table-column>
 
                         </el-table>
                     </tamplate>
-                    <div v-show="list.length==0" style="font-size:20px;color:red;display:none">商品全部为空</div>
+                    <div v-show="list.length==0" style="font-size:20px;color:red;display:none">Shopping carts are empty!</div>
 
-<!--                    <div>总价钱:<span>{{countList}}</span></div>-->
+
                     <div class="bar-wrapper">
                         <div class="bar-right">
-                            <div class="piece">已选商品<strong class="piece_num">{{allnum}}</strong>件</div>
-                            <div class="totalMoney">共计: <strong class="total_text">{{countList}}$</strong></div>
-                            <el-button type="primary">Check Out</el-button>
+                            <div class="piece">Selected commodities<strong class="piece_num">{{allnum}}</strong>Piece</div>
+                            <div class="totalMoney">Total: <strong class="total_text">{{countList}}$</strong></div>
+                            <el-button type="primary" @click="dialogFormVisible = true">CheckOut</el-button>
+							<el-dialog title="We will collect your personal address information so that we can successfully deliver the goods to you." :visible.sync="dialogFormVisible" :modal-append-to-body="ismodal" :append-to-body="isappend">
+							  <el-form ref="form" :rules="rules" :model="form">
+							  	<el-form-item label="name" prop="name" :label-width="formLabelWidth">
+							      <el-input v-model="form.name" autocomplete="off"></el-input>
+							    </el-form-item>
+							    <el-form-item label="Email" prop="email" :label-width="formLabelWidth">
+							      <el-input v-model="form.email" autocomplete="off"></el-input>
+							    </el-form-item>
+							    <el-form-item label="Address" prop="address" :label-width="formLabelWidth">
+							      <el-input v-model="form.address" autocomplete="off"></el-input>
+							    </el-form-item>
+							    <el-form-item label="Suburb" prop="suburb" :label-width="formLabelWidth">
+							      <el-input v-model="form.suburb" autocomplete="off"></el-input>
+							    </el-form-item>
+							    <el-form-item label="State" prop="state" :label-width="formLabelWidth">
+							      <el-input v-model="form.state" autocomplete="off"></el-input>
+							    </el-form-item>
+							    <el-form-item label="Country" prop="country" :label-width="formLabelWidth">
+							      <el-input v-model="form.country" autocomplete="off"></el-input>
+							    </el-form-item>
+							  </el-form>
+							  <div slot="footer" class="dialog-footer">
+							    <el-button @click="dialogFormVisible = false">Cancel</el-button>
+							    <el-button type="primary" @click="Submit(form)">Submit</el-button>
+							  </div>
+							</el-dialog>
                         </div>
                     </div>
                 </el-footer>
@@ -284,6 +304,19 @@
 <script type="text/javascript">
 	var Main = {
 	  data() {
+	  	var checkEmail = (rule, value, callback) => {
+		    const mailReg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/
+		    if (!value) {
+		      callback(new Error('Please fill in your email.'))
+		    }
+		    setTimeout(() => {
+		      if (mailReg.test(value)) {
+		        callback()
+		      } else {
+		        callback(new Error('Sorry!'))
+		      }
+		    }, 100)
+		  }
 	    return {
 	    	menudata:  <?php echo $goods;?>,
             list: [],
@@ -291,8 +324,67 @@
             istrue: false,
             p:'',
             search:'',
-            allnum:0
-        }
+            allnum:0,
+            dialogFormVisible: false,
+	        form: {
+				email:'',
+				name:'',
+				state:'',
+				country:'',
+				suburb:'',
+				address:''
+
+	        },
+	        formLabelWidth: '120px',
+	        taptap:false,
+	        isappend:true,
+	        ismodal:false,
+	         rules: {
+			    name: [
+			    { required: true, 
+			     message: 'Please fill in your name.', 
+			     trigger: 'blur' 
+			    },
+			    { min: 3, max: 50, message: 'Length of 3 to 50 characters', }
+			   ],
+			   address: [
+			    { required: true, 
+			     message: 'Please fill in your address.', 
+			     trigger: 'blur' 
+			    },
+			    { min: 3, max: 50, message: 'Length of 3 to 50 characters', }
+			   ],
+			   state: [
+			    { required: true, 
+			     message: 'Please fill in your state.', 
+			     trigger: 'blur' 
+			    },
+			    { min: 3, max: 50, message: 'Length of 3 to 50 characters', }
+			   ],
+			   country: [
+			    { required: true, 
+			     message: 'Please fill in your country.', 
+			     trigger: 'blur' 
+			    },
+			    { min: 3, max: 50, message: 'Length of 3 to 50 characters', }
+			   ],
+			   email: [
+			    { required: true, 
+			     validator:checkEmail,
+			     trigger: 'blur' 
+			    },
+			    { min: 3, max: 50, message: 'Length of 3 to 50 characters', }
+			   ],
+			   suburb: [
+			    { required: true, 
+			     message: 'Please fill in your suburb.', 
+			     trigger: 'blur' 
+			    },
+			    { min: 3, max: 50, message: 'Length of 3 to 50 characters', }
+			   ],
+			   }
+	        }
+
 	  },
         computed: {
             countList: function () {
@@ -300,8 +392,8 @@
                 var b = 0;
                 for (let i = 0; i < this.list.length; i++) {
                     if (this.list[i].checked == true) {
-                        a += this.list[i].product_price * this.list[i].in_stock;
-                        b += this.list[i].in_stock;
+                        a += this.list[i].unit_price * this.list[i].saled;
+                        b += this.list[i].saled;
                     }
                 }
                 this.allnum = b;
@@ -332,16 +424,21 @@
 	      },
           getContent:function(e){
       		this.p = e;
+      		this.taptap = false;
+          }
+          ,
+          buyproduct:function(e){
+          	console.log(e);
           }
           ,removeId(value) {
-              var ids = value.id
+              var ids = value.product_id
               for (var i = 0; i < this.list.length; i++) {
                   if (ids == this.list[i].product_id) {
                       this.list.splice(i, 1)
                   }
               }
           },
-          renderHeader: function (h, params) {//实现table表头添加
+          renderHeader: function (h, params) {
               var self = this;
               return h('div', [
                   h('el-checkbox', {
@@ -350,30 +447,86 @@
                               self.istrue = i;
                           }
                       }
-                  }, '全选')
+                  }, 'All')
               ]);
 
           },
+          Submit:function(form){
+          	var l = [];
+          	for(var i=0;i<this.list.length;i++){
+          		if(this.list[i].checked == true){
+          			l.push(this.list[i]);
+          		}
+          	}
+          	if(!l){
+          		alert('You have to choose what you want to buy.');
+          		return;
+          	}
+          	console.log(l);
+          	axios.get('/home/getSubmit', {
+                    params: {
+                        list:l,
+                        form:form,
+                        count:this.allnum,
+                        priceTotal:this.countList
+                    }
+                }).then(result => {
+                        console.log(result.data.result);
+                       this.tableData = result.data.result;
+                }).catch(function (error) {
+                        console.log(error);
+                });
+          }
+          ,
           addCart:function(e){
-              a = this.list;
-              var max = 0;
-              for ( var i = 0; i < this.list.length;i++)
-              {
-                  if(e.product_id == this.list[i].product_id)
-                  {
-                      for ( var ii = 0; ii < this.menuData.length;ii++)
-                      {
-                          if(e.product_id == this.menuData[ii].product_id && this.list[i].product_id == this.menuData[ii].product_id)
-                          {
-                                max = e.in_stock + this.list[i].in_stock;
-                                if(max > this.menuData[ii].in_stock){
-                                    alert(e.product_name+'You buy more than you sell.');
-                                }
-                          }
-                      }
-                  }
-              }
-              let l = a.push(e);
+          	// console.log(e);
+          	// console.log(this.list.length);
+
+          	// if(this.list.length == 0){
+              	this.list.push(e);
+              	this.taptap = true;		
+          	// }else{
+          	// 	var l = [];
+          	// 	for (var i = 0;i < this.list.length;i++){
+	          // 			for (var j = this.list.length-1;j >= 0;j--){
+		         //  			if(this.list[j].product_id !== this.list[i].product_id){
+			        //   				l.push(this.list[j]);
+		         //  				// this.list[i].saled += 1;
+		         //  			}
+	          // 		}
+          	// 	}
+          	// 	this.list = l;
+          	// 	for(var i = 0;i < this.list.length;i++){
+          	// 		if(e.product_id == this.list[i].product_id){
+	          // 			console.log(true);
+	          // 			console.log(this.list[i].product_id);
+	          // 			console.log(e.product_id);
+          	// 			// this.list[i].saled += 1;
+          	// 		}else{
+          	// 			console.log(false);
+          	// 			this.list.push(e);
+          	// 		}
+          	// 	}
+
+          	// }
+              // var max = 0;
+              // for ( var i = 0; i < this.list.length;i++)
+              // {
+              //     if(e.product_id == this.list[i].product_id)
+              //     {
+              //         for ( var ii = 0; ii < this.menuData.length;ii++)
+              //         {
+              //             if(e.product_id == this.menuData[ii].product_id && this.list[i].product_id == this.menuData[ii].product_id)
+              //             {
+              //                   max = e.in_stock + this.list[i].in_stock;
+              //                   if(max > this.menuData[ii].in_stock){
+              //                       alert(e.product_name+'You buy more than you sell.');
+              //                   }
+              //             }
+              //         }
+              //     }
+              // }
+
           }
       }
   }
