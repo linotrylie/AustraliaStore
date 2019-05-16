@@ -110,3 +110,91 @@
             return $return === true ? $result : '';
         }
     }
+
+
+	/**
+	 * smtp 发送邮件
+	 */
+	if (!function_exists("custom_mail_smtp")){
+		function custom_mail_smtp($type=1,$from=[],$to,$subject,$message,$attach=null,$cc=null,$bcc=null){
+			$CI = get_instance();
+			$CI->load->library("email");
+
+			switch ($type){
+				case 1: // text
+					$config['mailtype'] = 'text';
+					break;
+				case 2: // html
+					$config['mailtype'] = 'html';
+					break;
+				default:
+			}
+
+			$config['protocol'] = 'smtp';
+			$config['smtp_host'] = 'smtp.163.com';
+			$config['smtp_user'] = 'lll2669877481@163.com';
+			$config['smtp_pass'] = 'lll553553';
+			$config['smtp_port'] = '25';
+			$config['wordwrap'] = false;
+
+			$CI->email->initialize($config);
+
+			$CI->email->from($from['from_email'],$from['from_name']);
+			$CI->email->to($to);
+
+			if (!empty($cc)){
+				$CI->email->cc($cc);
+			}
+			if (!empty($bcc)){
+				$CI->email->bcc($bcc);
+			}
+
+			if (!empty($attach)){
+				$CI->email->attach($attach);
+			}
+//                $CI->email->attach('http://img2.imgtn.bdimg.com/it/u=875342312,3557917522&fm=26&gp=0.jpg');
+//                $CI->email->attach('./uploads/timg.jpg');
+
+			$CI->email->subject($subject);
+			$CI->email->message($message);
+
+			return $CI->email->send();
+			//debugger
+//                $CI->email->send(false);
+//                echo  $CI->email->print_debugger();
+
+
+		}
+		function _appars($data, $flag = true, $is_die = true, $error_code = 0, $ex = array(), $msg = '')
+		{
+			if (!$data) $data	= array();
+			if($flag === true)
+			{
+				$output	= array('state'=>'success', 'result'=>$data);
+			}
+			else
+			{
+				$output	= array('state'=>'fail', 'result'=>$data);
+				if (is_numeric($error_code) && $error_code > 0)
+				{
+					$output['code']	= (int)$error_code;
+				}
+			}
+			if (is_array($ex) && !empty($ex))
+			{
+				$output['ex']	= $ex;
+			}
+			if ($msg) {
+				$output['message'] = $msg;
+			}
+			json2List($output);
+			if ($is_die === true)
+			{
+				die();
+			}
+			else
+			{
+				fastcgi_finish_request();
+			}
+		}
+	}

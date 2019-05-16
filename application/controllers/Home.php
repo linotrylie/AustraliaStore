@@ -51,6 +51,7 @@ class Home extends CI_Controller
 	        			$arr[$key]['children'] = $this->product($value['children']);
 	        		}else{
 	        			$data = $this->goods_model->getProduct($value['id']);
+
 	        			if($data){
 		        			$arr[$key]['children'] = $data;
 	        			}
@@ -65,7 +66,11 @@ class Home extends CI_Controller
         	$form = $_GET['form'];
         	$form = (array)json_decode($form);
         	$count = $_GET['count'];
-  
+        	if(!$form['country'] || !$form['email']|| !$form['state']|| !$form['address']|| !$form['name']|| !$form['suburb'])
+			{
+				$data['success'] = false;
+				_appars($data,false);
+			}
         	$priceTotal = $_GET['priceTotal'];
         	$html = "
 <!DOCTYPE html>
@@ -75,6 +80,7 @@ class Home extends CI_Controller
 </head>
 <body>
 	<h1>From Grocery Store</h1>
+	<h3>Dear  ".$form['name'].":</h3>
 	<p>In order to ensure that you can receive our reply, we have sent you the information of your order submitted in the form of e-mail, which is confirmed by you personally. At the same time, on behalf of our successful receipt of your order information, we will send your order to you in the fastest time. Please wait patiently.</p>
 	<table border='1px' cellspacing='0'>
 		<tr>
@@ -102,30 +108,42 @@ class Home extends CI_Controller
 	</table>
 	<p>A total of ".$count." items were purchased.</p>
 	<p>The total value is $".$priceTotal.".</p>
+	<h4>Your Address:</h4>
+	<ol>
+		<li>Country:".$form['country']."</li>
+		<li>Address:".$form['address']."</li>
+		<li>Suburb:".$form['suburb']."</li>
+		<li>State".$form['state']."</li>
+	</ol>
 </body>
 </html>
 ";
-		    $config['protocol'] = 'smtp';
-		    $config['smtp_host'] = 'smtp.163.com';
-		    $config['smtp_user'] = 'lll2669877481@163.com';
-		    $config['smtp_pass'] = 'lll553553';
-		    $config['smtp_port'] = '456';
-		    $config['charset'] = 'utf-8';
-		    $config['wordwrap'] = TRUE;
-		    $config['mailtype'] = 'html';
-        	$this->load->library('email',$config);
-		//     $this->email->initialize($config);
-			$this->email->from('lll2669877481@163.com', 'Grocery Store');
-			$this->email->to($form['email']);
-			$this->email->subject('Grocery Store');
-			$this->email->message($html);
-			$this->email->send();
 
+//        	$this->load->library('email');
+//			ini_set('SMTP','smtp.163.com');
+//			ini_set('smtp_port',25);
+//		//     $this->email->initialize($config);
+//			$this->email->from('lll2669877481@163.com', 'Grocery Store');
+//			$this->email->to($form['email']);
+//			var_dump($form['email']);
+//			$this->email->set_protocol('smtp');
+//			$this->email->subject('Grocery Store');
+//			$this->email->message($html);
+//			$this->email->send();
+			$this->load->helper("utils_helper");
+			$rs = custom_mail_smtp(2,
+				[ "from_email" => "lll2669877481@163.com", "from_name" => "Grocery Store" ],
+				$form['email'],'Grocery Store',$html);
+			$res = '';
 			foreach ($list as $key => $v) {
 				# code...
 				$v =(array) json_decode($v);
 				$res = $this->goods_model->updateSaled($v['product_id'],$v['saled'],$v['in_stock']);
-				var_dump($res);
+			}
+			var_dump(34);
+			if($rs && $res){
+				$data['success'] = true;
+				_ars($data);
 			}
         }
 

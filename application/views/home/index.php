@@ -14,21 +14,21 @@
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 	<style type="text/css">
 		 .el-footer {
-		    background-color: #B3C0D1;
+
 		    color: #333;
 		    text-align: center;
 
 		  }
 		  
 		  .el-aside {
-		    background-color: #D3DCE6;
+
 		    color: #333;
 		    text-align: center;
 
 		  }
 		  
 		  .el-main {
-		    background-color: #E9EEF3;
+
 		    color: #333;
 		  }
           #app{
@@ -90,7 +90,7 @@
              width: 120px;
              height: 50px;
              color: #fff;
-             background: #B0B0B0;
+
              cursor: not-allowed;
              font-size: 22px;
              letter-spacing: 5px;
@@ -100,12 +100,12 @@
              border-radius: 2px;
          }
          .bar-wrapper .bar-right .calBtn a.btn_sty{
-             background: #ff873e;
+
              cursor: pointer;
          }
 	</style>
 </head>
-<body>
+<body style="margin:0px;">
 
 	<div id="app">
 
@@ -138,7 +138,7 @@
 										        <div class="bottom clearfix">
 										          <p class="time">{{p.unit_price}}$/{{p.unit_quantity}}</p>
 										          <p class="time">For Sale:{{p.in_stock}}</p>
-										          <el-button type="text" class="button" @click="getContent(p)" >操作按钮</el-button>
+										          <el-button type="text" class="button" @click="getContent(p)" >Check it</el-button>
 										        </div>
 										      </div>
 										    </el-card>
@@ -265,9 +265,12 @@
 
                     <div class="bar-wrapper">
                         <div class="bar-right">
+                            <el-button type="primary"  @click="clearCart
+" >Clear</el-button>
                             <div class="piece">Selected commodities<strong class="piece_num">{{allnum}}</strong>Piece</div>
                             <div class="totalMoney">Total: <strong class="total_text">{{countList}}$</strong></div>
-                            <el-button type="primary" @click="dialogFormVisible = true">CheckOut</el-button>
+                            <el-button type="primary"  @click="dialogFormVisible = true
+" :disabled="isdialogFormVisible">CheckOut</el-button>
 							<el-dialog title="We will collect your personal address information so that we can successfully deliver the goods to you." :visible.sync="dialogFormVisible" :modal-append-to-body="ismodal" :append-to-body="isappend">
 							  <el-form ref="form" :rules="rules" :model="form">
 							  	<el-form-item label="name" prop="name" :label-width="formLabelWidth">
@@ -326,6 +329,7 @@
             search:'',
             allnum:0,
             dialogFormVisible: false,
+            isdialogFormVisible: true,
 	        form: {
 				email:'',
 				name:'',
@@ -394,8 +398,10 @@
                     if (this.list[i].checked == true) {
                         a += this.list[i].unit_price * this.list[i].saled;
                         b += this.list[i].saled;
+
                     }
                 }
+
                 this.allnum = b;
                 this.count = a;
                 return this.count;
@@ -406,6 +412,7 @@
                 if (this.istrue == true) {
                     for (let k = 0; k < this.list.length; k++) {
                         this.list[k].checked = true;
+                        this.isdialogFormVisible = false;
                     }
                 } else {
                     for (let k = 0; k < this.list.length; k++) {
@@ -427,6 +434,10 @@
       		this.taptap = false;
           }
           ,
+
+          clearCart:function(){
+      		this.list = [];
+          },
           buyproduct:function(e){
           	console.log(e);
           }
@@ -471,61 +482,37 @@
                         priceTotal:this.countList
                     }
                 }).then(result => {
-                        console.log(result.data.result);
-                       this.tableData = result.data.result;
+                        // console.log(result);
+                // console.log(result.data.result.success);
+                        if(result.data.result.success == true){
+                            this.dialogFormVisible = false;
+                            this.list = [];
+                            this.taptap = false;
+                            this.isdialogFormVisible = true;
+                            this.$notify({
+                                title: 'SUCCESS',
+                                message: 'Congratulations on your successful purchase. We have sent your shopping list to your email address.',
+                                type: 'success'
+                            });
+                        }else{
+                            this.dialogFormVisible = false;
+                            // this.isdialogFormVisible = true;
+                            this.isdialogFormVisible = false;
+                            this.$notify({
+                                title: 'ERROR',
+                                message: 'Please fill in your personal information carefully so that we can successfully deliver the goods to you.',
+                                type: 'error'
+                            });
+                        }
                 }).catch(function (error) {
                         console.log(error);
                 });
           }
           ,
           addCart:function(e){
-          	// console.log(e);
-          	// console.log(this.list.length);
-
-          	// if(this.list.length == 0){
               	this.list.push(e);
               	this.taptap = true;		
-          	// }else{
-          	// 	var l = [];
-          	// 	for (var i = 0;i < this.list.length;i++){
-	          // 			for (var j = this.list.length-1;j >= 0;j--){
-		         //  			if(this.list[j].product_id !== this.list[i].product_id){
-			        //   				l.push(this.list[j]);
-		         //  				// this.list[i].saled += 1;
-		         //  			}
-	          // 		}
-          	// 	}
-          	// 	this.list = l;
-          	// 	for(var i = 0;i < this.list.length;i++){
-          	// 		if(e.product_id == this.list[i].product_id){
-	          // 			console.log(true);
-	          // 			console.log(this.list[i].product_id);
-	          // 			console.log(e.product_id);
-          	// 			// this.list[i].saled += 1;
-          	// 		}else{
-          	// 			console.log(false);
-          	// 			this.list.push(e);
-          	// 		}
-          	// 	}
 
-          	// }
-              // var max = 0;
-              // for ( var i = 0; i < this.list.length;i++)
-              // {
-              //     if(e.product_id == this.list[i].product_id)
-              //     {
-              //         for ( var ii = 0; ii < this.menuData.length;ii++)
-              //         {
-              //             if(e.product_id == this.menuData[ii].product_id && this.list[i].product_id == this.menuData[ii].product_id)
-              //             {
-              //                   max = e.in_stock + this.list[i].in_stock;
-              //                   if(max > this.menuData[ii].in_stock){
-              //                       alert(e.product_name+'You buy more than you sell.');
-              //                   }
-              //             }
-              //         }
-              //     }
-              // }
 
           }
       }
